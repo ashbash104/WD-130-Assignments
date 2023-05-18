@@ -1,0 +1,16 @@
+:root {
+  --heading-font: "idk";
+  --paragraph-font: "idk";
+  --header-text-color:black;
+  --header-text-hover-color: white;
+  --paragraph-text-color: black;
+}
+
+a:hover {
+    background-color: #f79ac0;
+    color: white;
+}
+
+body {
+  text-align: center;
+}
