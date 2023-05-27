@@ -8,26 +8,36 @@ nav a {
     background-color: #9D9171;
     color: black;
     text-decoration: none;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
+    padding: 35px;
 }
 
 #hero-msg h1 {
     margin: 0 auto;
     text-align: center;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
 }
 
 #hero-msg h4 {
     margin: 0 auto;
     text-align: center;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
 }
 
 .button-box {
     margin: 0 auto;
     text-align: center;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
 }
 
 main section {
     margin: 0 auto;
     text-align: center;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -35,7 +45,11 @@ main section {
 }
 
 body {
-    background-color: #fff; 
+    background-color: #fff;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #9D9171;
@@ -48,11 +62,15 @@ nav a:hover {
 .book {
     background-color: #9D9171;
     text-decoration: none;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
+    font-size: 18px;
 }
 
 .join {
     background-color: #9D9171;
     text-decoration: none;
+    font-family: 'Roboto Slab', 'Verdana', 'Georgia';
+    font-size: 18px;
 }
 
 .book:hover {
@@ -69,11 +87,15 @@ nav a:hover {
 
 .msg {
     background-color: #9D9171;
+    padding: 35px;
 }
 
 .home-title {
     background-color: #533745;
     color: black;
+    font-family: 'Lato', 'Verdana', 'Georgia';
+    font-size: 2em;
+    margin-top: 10px;
 } 
 
 h4 {
@@ -85,40 +107,73 @@ h4 {
     background-color: #533745;
     color: black;
     text-align: center;
+    font-family: 'Lato', 'Verdana', 'Georgia';
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 
 .join {
     background-color: #9D9171;
     color: black;
     text-align: center;
-} 
+    font-family: 'Lato', 'Verdana', 'Georgia';
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 
 .book:hover {
     background-color: #9D9171;
     color: black;
     text-align: center;
+    font-family: 'Lato', 'Verdana', 'Georgia';
 } 
 
 .join:hover {
     background-color: #9D9171;
     color: black;
+    font-family: 'Lato', 'Verdana', 'Georgia';
 } 
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
 
 .msg h2 {
     background-color: #9D9171;
     color: black;
     text-align: center;
+    font-family: 'Lato', 'Verdana', 'Georgia';
+    margin: 0;
 } 
 
 .msg p {
     background-color: #9D9171;
     color: black;
     text-align: center;
+    font-family: 'Lato', 'Verdana', 'Georgia';
+    font-size: .8em;
+    padding-bottom: 15px;
 } 
 
 footer {
     background-color: #533745;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 } 
 
 footer a {
@@ -126,6 +181,7 @@ footer a {
     color: black;
     text-decoration: none;
     text-align: center;
+    font-family: 'Lato', 'Verdana', 'Georgia';
 } 
 
 footer a:hover {
@@ -135,10 +191,15 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+    font-family: 'Lato', 'Verdana', 'Georgia';
 }
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 #hero-img {
@@ -150,6 +211,11 @@ footer p a:hover {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
