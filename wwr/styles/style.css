@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@200&display=swap');
+
 #content {
     max-width: 1600px; 
     margin: 0 auto;
@@ -64,15 +66,15 @@ nav {
     justify-content: space-around;
 }
 nav a:hover {
-    background-color: #9D9171;
-    color: black;
+    background-color: black;
+    color: #9D9171;
 }
 
 .book {
     background-color: #9D9171;
     text-decoration: none;
     font-family: 'Roboto Slab', 'Verdana', 'Georgia';
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .join {
@@ -271,6 +273,10 @@ footer .social img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 @media screen and (max-width: 900px) {
